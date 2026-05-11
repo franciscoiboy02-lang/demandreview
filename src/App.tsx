@@ -69,7 +69,7 @@ function buildDemo() {
 function makeS(C) { return {
   app:   { display:"flex", height:"100vh", background:C.bg, color:C.t1, fontFamily:"'Inter','Segoe UI',system-ui,sans-serif", overflow:"hidden" },
   side:  { width:204, background:C.sidebar, display:"flex", flexDirection:"column", flexShrink:0 },
-  main:  { flex:1, overflow:"auto", padding:"22px 26px" },
+  main:  { flex:1, overflow:"auto", padding:"10px 0" },
   card:  { background:C.card, border:`1px solid ${C.border}`, borderRadius:10, padding:16, marginBottom:14, boxShadow:"0 1px 4px rgba(30,48,85,0.06)" },
   hdr:   { fontSize:10, color:C.t3, fontWeight:700, letterSpacing:"0.12em", textTransform:"uppercase", marginBottom:10 },
   tag:   (c)=>({ display:"inline-flex", padding:"2px 8px", borderRadius:10, fontSize:9, fontWeight:700, background:c+"22", color:c }),
